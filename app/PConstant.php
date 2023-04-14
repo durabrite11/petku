@@ -1,0 +1,33 @@
+<?php
+namespace App;
+
+class PConstant {
+    const BASE_URL = "http://localhost:8000";
+    const PERPAGE = 2;
+    const LOGIN_MEMBER = "Member";
+    const LOGIN_GROOMER = "Groomer";
+    const LOGIN_TYPE = [self::LOGIN_MEMBER, self::LOGIN_GROOMER];
+
+    const TOPUP_STATUS_PENDING= "PENDING";
+    const TOPUP_STATUS_SUCCESS= "SUCCESS";
+    const TOPUP_STATUS_APPROVED= "APPROVED";
+    const TOPUP_STATUS_CANCELED= "CANCELED";
+    const TOPUP_STATUS_REJECTED= "REJECTED";
+    const TOPUP_CHARGE = 1000;
+    const WITHDRAW_CHARGE = 4000;
+    const CHARGE_PER_KM = 2000;
+    const IMAGE_MEMBER_DEFAULT = "/images/user.png";
+    const IMAGE_GROOMER_DEFAULT = "/images/petshop.jpg";
+    
+    const TRANSACTION_STATUS_SUCCESS= "SUCCESS";
+    const TRANSACTION_STATUS_APPROVED= "APPROVED";
+    const TRANSACTION_STATUS_ONTHEWAY= "ONTHEWAY";
+    const TRANSACTION_STATUS_PROSES= "PROSES";
+    const TRANSACTION_STATUS_COMPLETED= "COMPLETED";
+    const TRANSACTION_STATUS_REJECTED= "REJECTED";
+    const TRANSACTION_STATUS_CANCELED= "CANCELED";
+
+    const TRANSACTION_TYPE_IN= "IN";
+    const TRANSACTION_TYPE_OUT= "OUT";
+
+}

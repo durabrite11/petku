@@ -1,0 +1,11 @@
+.login-box, .register-box{
+    width:520px;
+}
+.card-footer .pagination{
+    margin-bottom: 0px;
+}
+.card-footer .pagination .page-link{
+    padding: 0.25rem 0.5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+}
